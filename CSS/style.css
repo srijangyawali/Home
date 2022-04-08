@@ -1,0 +1,95 @@
+*{
+    font-family: Sen;
+    font-weight: bold;
+}
+body{
+    height: 100vh;
+    background-color: #162431;
+    background-image: url(../Images/background.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 50% 130%;
+    width: 85%;
+    margin: 3em auto 0px auto;
+    color: white;
+
+}
+nav{
+    display: grid;
+    grid-template-columns: 10% 10% 80%;
+}
+nav img{
+    height: 80%;
+}
+.navbar{
+    display: flex;
+    justify-content: space;
+    flex-direction: row-reverse;
+    
+}
+.navbar ul{
+    min-width: 50%; 
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+.navbar li:hover{
+    text-decoration: underline;
+    transform: scale(1.015);
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.content{
+    margin-top: 80px;
+}
+
+.content .heading{
+    font-size: 2em;
+    margin-bottom: 1.3em;
+}
+.content .heading h1,.content .heading h3{
+    margin: 5px 0 5px 0;
+}
+.content .heading h3{
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.quote{
+    border-left: 6px solid white;
+    margin-top: 4em;
+    margin-bottom: 3em;
+}
+.quote .parent{
+    padding: 10px 0px 10px 20px;
+}
+.quote .spacingdiv{
+    height: 10px;
+}
+.quote div{
+    font-size: 20px;
+    font-weight: 400;
+}
+.signup{
+    margin-top: 6em;
+}
+.signup .text{
+    padding: 10px 0px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.signup input{
+    padding: 0.5em 4em;
+    background-color: #31454B;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.7em;
+}
+.signup input:hover{
+    box-shadow: 3px 4px 6px #3b658c;
+    transform: scale(1.025);
+}
+
